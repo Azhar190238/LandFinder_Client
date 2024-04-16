@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "Scenic Valley Retreat",
+        "image": "https://i.ibb.co/whDjkQ4/12.jpg",
+        "name": "Mountain View Serenity",
+        "description": "A serene piece of land nestled in the heart of nature, offering breathtaking views of the valley and surrounding mountains.",
+        "price": "$150,000",
+        "area": "10 acres",
+        "status": "sale",
+        "discount": "10%",
+        "Location": "Mountain View, CA",
+        "nearest_city": "San Francisco",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Mountain Views",
+            "Hiking Trails"
+        ],
+        "rating": 4.5,
+        "review": "Absolutely stunning location with incredible views. I can't wait to build my dream home here!"
+    },
+    {
+        "id": 2,
+        "title": "Riverside Haven",
+        "image": "https://i.ibb.co/GvcJFpS/11.jpg",
+        "name": "Tranquil Riverfront Retreat",
+        "description": "Tranquil land with riverfront access, perfect for building your dream home or vacation retreat.",
+        "price": "$120,000",
+        "area": "5 acres",
+        "status": "sale",
+        "discount": "15%",
+        "Location": "Asheville, NC",
+        "nearest_city": "Charlotte",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Riverfront Access",
+            "Fishing Spot"
+        ],
+        "rating": 4.2,
+        "review": "I love spending weekends here fishing by the river. It's so peaceful and relaxing."
+    },
+    {
+        "id": 3,
+        "title": "LakeView Estate",
+        "image": "https://i.ibb.co/tZzzcR6/10.jpg",
+        "name": "Tranquil Lakefront Sanctuary",
+        "description": "Idyllic land overlooking a pristine lake, ideal for a peaceful lakeside getaway or year-round living.",
+        "price": "$200,000",
+        "area": "8 acres",
+        "status": "sale",
+        "discount": "11%",
+        "Location": "Lake Placid, NY",
+        "nearest_city": "Albany",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Lakefront Views",
+            "Boating Dock"
+        ],
+        "rating": 4.7,
+        "review": "The views of the lake are breathtaking! Can't wait to spend summers here."
+    },
+    {
+        "id": 4,
+        "title": "Forest Retreat",
+        "image": "https://i.ibb.co/6mN2tp3/9.jpg",
+        "name": "Secluded Forest Haven",
+        "description": "Secluded forest land with towering trees and abundant wildlife, perfect for those seeking privacy and tranquility.",
+        "price": "$100,000",
+        "area": "15 acres",
+        "status": "rent",
+        "discount": "12%",
+        "Location": "Bend, OR",
+        "nearest_city": "Portland",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Forest Trails",
+            "Wildlife Watching"
+        ],
+        "rating": 4.8,
+        "review": "I love exploring the trails in the forest. It's like having my own private nature reserve!"
+    },
+    {
+        "id": 5,
+        "title": "Desert Oasis",
+        "image": "https://i.ibb.co/V3NGyR6/8.jpg",
+        "name": "Sedona Sunset Retreat",
+        "description": "Expansive desert land offering stunning sunsets and clear night skies, a unique canvas for your desert retreat.",
+        "price": "$80,000",
+        "area": "20 acres",
+        "status": "sale",
+        "discount": "14%",
+        "Location": "Sedona, AZ",
+        "nearest_city": "Phoenix",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Desert Views",
+            "Stargazing"
+        ],
+        "rating": 4.6,
+        "review": "The sunsets here are out of this world! Such a magical place."
+    },
+    {
+        "id": 6,
+        "title": "Coastal Paradise",
+        "image": "https://i.ibb.co/PrYrNHR/7.jpg",
+        "name": "Malibu Beachfront Bliss",
+        "description": "Prime coastal land with sweeping ocean views, perfect for building a beachfront estate or vacation home.",
+        "price": "$300,000",
+        "area": "3 acres",
+        "status": "sale",
+        "discount": "13%",
+        "Location": "Malibu, CA",
+        "nearest_city": "Louisville",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Meadow Views",
+            "Nature Trails"
+        ],
+        "rating": 4.6,
+        "review": "The views from this property are absolutely breathtaking. It's the perfect place to unwind and reconnect with nature."
+    },
+    {
+        "id": 7,
+        "title": "Mountain Hideaway",
+        "image": "https://i.ibb.co/rfxB51V/6.jpg",
+        "name": "Telluride Mountain Retreat",
+        "description": "Secluded mountain land surrounded by lush forests, offering unmatched serenity and outdoor adventures.",
+        "price": "$180,000",
+        "area": "12 acres",
+        "status": "sale",
+        "discount": "10%",
+        "Location": "Telluride, CO",
+        "nearest_city": "Los Angeles",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Oceanfront Views",
+            "Beach Access"
+        ],
+        "rating": 4.9,
+        "review": "Waking up to the sound of waves crashing is the best way to start the day. This place is paradise!"
+    },
+    {
+        "id": 8,
+        "title": "Riverfront Sanctuary",
+        "image": "https://i.ibb.co/N1kZ8Yv/5.jpg",
+        "name": "Boise Riverfront Retreat",
+        "description": "Tranquil land along the riverbanks, where you can unwind and enjoy the soothing sounds of flowing water.",
+        "price": "$140,000",
+        "area": "6 acres",
+        "status": "sale",
+        "discount": "12%",
+        "Location": "Boise, ID",
+        "nearest_city": "Denver",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Mountain Views",
+            "Skiing Nearby"
+        ],
+        "rating": 4.7,
+        "review": "The views from this property are breathtaking. I could spend hours just taking it all in."
+    },
+    {
+        "id": 9,
+        "title": "Riverfront Sanctuary",
+        "image": "https://i.ibb.co/ss7zW1Q/4.jpg",
+        "name": "Lexington Meadow Escape",
+        "description": "Expansive meadow land with panoramic views of rolling hills and open skies, perfect for a peaceful countryside escape.",
+        "price": "$160,000",
+        "area": "7 acres",
+        "status": "sale",
+        "discount": "15%",
+        "Location": "Lexington, KY",
+        "nearest_city": "Boise",
+        "property_type": "Vacant Land",
+        "special_facilities": [
+            "Riverfront Views",
+            "Picnic Areas"
+        ],
+        "rating": 4.5,
+        "review": "I love having picnics by the river. It's such a peaceful and beautiful spot!"
+    }
+]
