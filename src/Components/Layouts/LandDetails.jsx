@@ -1,7 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import UseTitle from "../../Title/UseTitle";
 
 const LandDetails = () => {
-
+   UseTitle("LandDetails");
     const { id } = useParams()
     const lands = useLoaderData()
     const land = lands.find(land => land.id == id)

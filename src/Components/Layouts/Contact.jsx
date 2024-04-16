@@ -1,5 +1,7 @@
+import UseTitle from "../../Title/UseTitle";
 
 const Contact = () => {
+    UseTitle("Contact")
     return (
         <div>
             <div className="hero w-full  " style={{ backgroundImage: 'url(https://i.ibb.co/ZL4xJhR/pawel-czerwinski-Zkzob-NDay-Xo-unsplash.jpg)' }}>

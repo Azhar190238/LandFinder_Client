@@ -4,9 +4,10 @@ import { authContext } from "../Providers/AuthProvider";
 
 
 import { ToastContainer, toast } from 'react-toastify';
+import UseTitle from "../Title/UseTitle";
 
 const Login = () => {
-
+   UseTitle("Login");
     const location = useLocation()
     const naviGate = useNavigate()
 
@@ -24,8 +25,9 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 console.log(result)
-                toast('Login Successfully')
                 naviGate(location?.state ? location.state : '/')
+                toast('Login Successfully')
+               
             })
             .catch(error => {
                 console.error(error)

@@ -17,11 +17,13 @@ import AuthProvider from './Providers/AuthProvider';
 import LandDetails from './Components/Layouts/LandDetails';
 import PrivateRoute from './Providers/PrivateRoute';
 import Result from './Components/Layouts/Result';
+import ErrorPage from './Components/Error/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/',
