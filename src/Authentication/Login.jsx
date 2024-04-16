@@ -1,61 +1,98 @@
-import { useContext } from "react";
+
+
+import  { useState, useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { authContext } from "../Providers/AuthProvider";
-
-
-import { ToastContainer, toast } from 'react-toastify';
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import Swal from 'sweetalert2';
+import 'sweetalert2/dist/sweetalert2.css';
 import UseTitle from "../Title/UseTitle";
 
 const Login = () => {
-   UseTitle("Login");
-    const location = useLocation()
-    const naviGate = useNavigate()
+    // Set the title of the page
+    UseTitle("Login");
 
-    const { signIn, googleSignIn, gitHubSignIn } = useContext(authContext)
-    const handleSignIn = e => {
-        e.preventDefault()
+    // Initialize necessary hooks and context
+    const location = useLocation();
+    const naviGate = useNavigate();
+    const [showPassword, setShowPassword] = useState(false);
+    const { signIn, googleSignIn, gitHubSignIn } = useContext(authContext);
 
-        const form = new FormData(e.currentTarget)
+    // Function to handle form submission for regular login
+    const handleSignIn = async (e) => {
+        e.preventDefault();
 
-        const email = form.get('email')
-        const password = form.get('password')
+        const form = new FormData(e.currentTarget);
+        const email = form.get('email');
+        const password = form.get('password');
 
-        console.log(email, password)
-
-        signIn(email, password)
-            .then(result => {
-                console.log(result)
-                naviGate(location?.state ? location.state : '/')
-                toast('Login Successfully')
-               
-            })
-            .catch(error => {
-                console.error(error)
-            })
+        try {
+            // Attempt to sign in
+            await signIn(email, password);
+            naviGate(location?.state ? location.state : '/');
+            Swal.fire({
+                icon: 'success',
+                title: 'Login successful!',
+                showConfirmButton: false,
+                timer: 1500
+            });
+        } catch (error) {
+            console.error(error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Login failed',
+                text: 'Please check your credentials and try again.'
+            });
+        }
     }
 
+    // Function to handle sign in with Google
     const handlesSignInWithGoogle = () => {
         googleSignIn()
             .then(result => {
-                console.log(result)
-                naviGate(location?.state ? location.state : '/')
+                console.log(result);
+                naviGate(location?.state ? location.state : '/');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Login successful!',
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             })
             .catch(error => {
-                console.error(error)
-            })
+                console.error(error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Login failed',
+                    text: 'Please try again later.'
+                });
+            });
     }
+
+    // Function to handle sign in with GitHub
     const handlesSignInWithGitHub = () => {
         gitHubSignIn()
             .then(result => {
-                console.log(result)
-                naviGate(location?.state ? location.state : '/')
+                console.log(result);
+                naviGate(location?.state ? location.state : '/');
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Login successful!',
+                    showConfirmButton: false,
+                    timer: 1500
+                });
             })
             .catch(error => {
-                console.error(error)
-            })
+                console.error(error);
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Login failed',
+                    text: 'Please try again later.'
+                });
+            });
     }
 
-
+    // JSX for the login form
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
@@ -75,7 +112,14 @@ const Login = () => {
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" name="password" placeholder="password" className="input input-bordered" required />
+                                <div className="flex">
+                                    <input
+                                        type={showPassword ? "text" : "password"}
+                                        name="password" placeholder="Password" className="input border-slate-300 pr-16" required />
+                                    <span onClick={() => setShowPassword(!showPassword)} className="mt-4 -ml-5">
+                                        {showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}
+                                    </span>
+                                </div>
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
@@ -91,7 +135,7 @@ const Login = () => {
                                     <button onClick={handlesSignInWithGoogle} className="btn btn-outline ml-4 btn-success">Google</button>
                                 </p>
                                 <p>
-                                    <button onClick={handlesSignInWithGitHub} className="btn btn-outline ml-4 btn-success">gitHub</button>
+                                    <button onClick={handlesSignInWithGitHub} className="btn btn-outline ml-4 btn-success">GitHub</button>
                                 </p>
                             </div>
                             <div>
@@ -102,7 +146,6 @@ const Login = () => {
                             </div>
                         </form>
                     </div>
-                    <ToastContainer></ToastContainer>
                 </div>
             </div>
         </div>

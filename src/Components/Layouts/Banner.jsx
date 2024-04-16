@@ -4,13 +4,13 @@ const Banner = () => {
         <div>
             <div className="carousel w-full">
                 <div id="slide1" className="carousel-item relative w-full">
-                    <div className="hero rounded-xl sm:w-full md:w-full lg:w-full min-h-screen" style={{ backgroundImage: 'url(https://i.ibb.co/nwbWrVF/beautiful-landscape-with-clear-sky.jpg)' }}>
+                    <div className="hero rounded-2xl sm:w-full md:w-full lg:w-full min-h-screen" style={{ backgroundImage: 'url(https://i.postimg.cc/vT67LkwD/6-1.jpg)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
-                                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold">Welcome The Beautiful & Gorgeous Land</h1>
+                                <p className="mb-5">In surveying and property law, a land description or legal description is a written statement that delineates the boundaries of a piece of real property. In the written transfer of real property.</p>
+                                <button className="btn btn-primary">Let's Visit This Place</button>
                             </div>
                         </div>
                     </div>
@@ -20,13 +20,13 @@ const Banner = () => {
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full">
-                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.ibb.co/j6fM7xf/beautiful-landscape-with-small-village.jpg)' }}>
+                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.postimg.cc/wBKCXYKR/4-1.jpg)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
-                                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold">Welcome The Beautiful & Gorgeous Land</h1>
+                                <p className="mb-5">In surveying and property law, a land description or legal description is a written statement that delineates the boundaries of a piece of real property. In the written transfer of real property.</p>
+                                <button className="btn btn-primary">Let's Visit This Place</button>
                             </div>
                         </div>
                     </div>
@@ -36,13 +36,13 @@ const Banner = () => {
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full">
-                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.ibb.co/BVrGbYV/rural-landscape-with-field-road.jpg)' }}>
+                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.postimg.cc/HkjYZgPS/3-1.jpg)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
-                                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold">Welcome The Beautiful & Gorgeous Land</h1>
+                                <p className="mb-5">In surveying and property law, a land description or legal description is a written statement that delineates the boundaries of a piece of real property. In the written transfer of real property.</p>
+                                <button className="btn btn-primary">Let's Visit This Place</button>
                             </div>
                         </div>
                     </div>
@@ -52,13 +52,13 @@ const Banner = () => {
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item relative w-full">
-                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.ibb.co/7SNNwbF/wallpaperflare-com-wallpaper.jpg)' }}>
+                    <div className="hero md:w-full sm:w-full rounded-xl" style={{ backgroundImage: 'url(https://i.postimg.cc/TPFJLfBB/9-1.jpg)' }}>
                         <div className="hero-overlay bg-opacity-60"></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
-                                <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button className="btn btn-primary">Get Started</button>
+                            <h1 className="mb-5 text-5xl font-bold">Welcome The Beautiful & Gorgeous Land</h1>
+                                <p className="mb-5">In surveying and property law, a land description or legal description is a written statement that delineates the boundaries of a piece of real property. In the written transfer of real property.</p>
+                                <button className="btn btn-primary">Let's Visit This Place</button>
                             </div>
                         </div>
                     </div>

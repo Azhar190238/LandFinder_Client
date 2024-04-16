@@ -10,8 +10,8 @@ const LandDetails = () => {
     return (
         <div>
             <div className="hero ">
-                <div className="hero-content flex md:flex-col lg:flex-row gap-4 mx-auto">
-                    <img className='w-full rounded-3xl bg-[#1313130D]' src={land.image}/>
+                <div className="hero-content flex md:flex-col lg:flex-row gap-10 mx-auto">
+                    <img className='w-2/3 rounded-3xl bg-[#1313130D]' src={land.image}/>
                     <div>
                         <h1 className="text-xl font-bold px-2 pb-2">Name: {land.name}</h1>
                         <p className="p-2">Title : {land.title}</p>

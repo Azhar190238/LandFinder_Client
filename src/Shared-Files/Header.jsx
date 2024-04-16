@@ -14,11 +14,10 @@ const Header = () => {
     }
     const navLinks = <>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/achievement'>Achievement</NavLink></li>
+        
         <li><NavLink to='/contact'>Contact Us</NavLink></li>
         {user && <>
             <li><NavLink to='/profile'>Profile</NavLink></li>
-            <li><NavLink to='/Result'>Result</NavLink></li>
 
         </>
         }
@@ -39,7 +38,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <Link to='/'>
-                        <a className="btn btn-ghost text-xl">AISC</a>
+                        <a className="text-3xl">Land<span className="text-red-500">F</span>inder</a>
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

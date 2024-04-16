@@ -11,12 +11,10 @@ import Home from './Components/Layouts/Home';
 import Login from './Authentication/Login';
 import Register from './Authentication/Register';
 import Contact from './Components/Layouts/Contact';
-import Achievement from './Components/Layouts/Achievement';
 import Profile from './Components/Layouts/Profile';
 import AuthProvider from './Providers/AuthProvider';
 import LandDetails from './Components/Layouts/LandDetails';
 import PrivateRoute from './Providers/PrivateRoute';
-import Result from './Components/Layouts/Result';
 import ErrorPage from './Components/Error/ErrorPage';
 
 const router = createBrowserRouter([
@@ -42,14 +40,7 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact></Contact>
       },
-      {
-        path: '/result',
-        element: <PrivateRoute><Result></Result></PrivateRoute>
-      },
-      {
-        path: '/achievement',
-        element: <Achievement></Achievement>
-      },
+    
       {
         path: '/profile',
         element: <PrivateRoute><Profile></Profile></PrivateRoute>
