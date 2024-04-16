@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 import { Link } from "react-router-dom";
+import ClientQuestion from "./ClientQuestion";
 
 const Land = ({ land }) => {
 
@@ -23,6 +24,7 @@ const Land = ({ land }) => {
                     </div>
                 </div>
             </div>
+            <ClientQuestion></ClientQuestion>
         </div>
     );
 };
