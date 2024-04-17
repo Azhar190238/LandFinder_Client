@@ -17,6 +17,7 @@ import LandDetails from './Components/Layouts/LandDetails';
 import PrivateRoute from './Providers/PrivateRoute';
 import ErrorPage from './Components/Error/ErrorPage';
 import Location from './Components/Layouts/Location/Location';
+import About from './Components/Layouts/About';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>
+      },
+      {
+        path: '/about',
+        element: <About></About>
       },
     
       {

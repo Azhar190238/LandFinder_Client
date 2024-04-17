@@ -18,5 +18,12 @@ Here are five basic features that a land-related website might offer;
  5) Also Photo Galleries: Basic photo galleries accompanying each property listing, showcasing images of the land from different angles and perspectives.
 
 npm packages:
+ I am using here three packages like;
+ 1) Animate.css (Which used in banner header)
+    npm install animate.css
+ 2) React Leaflet (Which used in view details page and exactly location name)
+   
+   npm install react react-dom leaflet
+   npm install react-leaflet
 
-npm install animate.css
+3) 

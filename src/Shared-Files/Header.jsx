@@ -18,6 +18,7 @@ const Header = () => {
         <li><NavLink to='/contact'>Contact Us</NavLink></li>
         {user && <>
             <li><NavLink to='/profile'>Profile</NavLink></li>
+            <li><NavLink to='/about'>About us</NavLink></li>
 
         </>
         }

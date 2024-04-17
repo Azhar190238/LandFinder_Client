@@ -18,6 +18,18 @@ const Contact = () => {
                         <a className="link link-hover text-[#FFFFFF99]">azhar73397@gmail.com</a>
                     </div>
                     <div className="flex gap-2 mx-auto lg:mx-0">
+                        <img src={'https://i.ibb.co/X2WnJ3F/Frame.png'} alt=""/>
+                        <a className="link link-hover text-[#FFFFFF99]">190238@ku.ac.bd</a>
+                    </div>
+                    <div className="flex gap-2 mx-auto lg:mx-0">
+                        <img src={'https://i.ibb.co/X2WnJ3F/Frame.png'} alt=""/>
+                        <a className="link link-hover text-[#FFFFFF99]">azharuddin1938@cseku.ac.bd</a>
+                    </div>
+                    <div className="flex gap-2 mx-auto lg:mx-0">
+                        <img src={'https://i.ibb.co/SsYgTTw/Frame-1.png'} alt=""/>
+                        <a className="link link-hover text-[#FFFFFF99]">8801304586306</a>
+                    </div>
+                    <div className="flex gap-2 mx-auto lg:mx-0">
                         <img src={'https://i.ibb.co/SsYgTTw/Frame-1.png'} alt=""/>
                         <a className="link link-hover text-[#FFFFFF99]">(+62)123-321-543</a>
                     </div>
