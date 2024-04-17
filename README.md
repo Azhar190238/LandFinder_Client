@@ -1,8 +1,14 @@
-# React + Vite
+Live link:
+Git Hub Link:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here are five basic features that a land-related website might offer;
+ 
+ 1) Property Listings: A simple, easy-to-navigate interface displaying available land     properties, including basic details like location, size, and price.
 
-Currently, two official plugins are available:
+ 2) Contact Information: Clear contact information for property owners, real estate agents, or the website administrators, enabling users to inquire about listings or request additional information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 3) User Registration:  Simple form for users to input basic details (name, email, password). Ensure entered information meets required criteria (valid email format, strong password).
+ 
+ 4)
+
+ 5)Photo Galleries: Basic photo galleries accompanying each property listing, showcasing images of the land from different angles and perspectives.
