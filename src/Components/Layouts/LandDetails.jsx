@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import UseTitle from "../../Title/UseTitle";
 
 const LandDetails = () => {
@@ -27,7 +27,9 @@ const LandDetails = () => {
                         <div >
                             <div className="flex mt-1">
                                 <p className="mr-16">Location:</p>
-                                <p className="font-bold">{land.Location}</p>
+                                <Link to='/location'><p className="font-bold">{land.Location}</p> </Link>
+                                
+
                             </div>
                             <div className="flex mt-1">
                                 <p className="mr-16">Status:</p>

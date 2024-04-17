@@ -16,6 +16,7 @@ import AuthProvider from './Providers/AuthProvider';
 import LandDetails from './Components/Layouts/LandDetails';
 import PrivateRoute from './Providers/PrivateRoute';
 import ErrorPage from './Components/Error/ErrorPage';
+import Location from './Components/Layouts/Location/Location';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: '/login',
         element: <Login></Login>
+      },
+      {
+        path: '/location',
+        element: <Location></Location>
       },
       {
         path: '/register',

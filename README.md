@@ -1,4 +1,7 @@
 My website name is : LandFinder
+
+
+
 Live link:
 
 
@@ -14,3 +17,6 @@ Here are five basic features that a land-related website might offer;
 
  5) Also Photo Galleries: Basic photo galleries accompanying each property listing, showcasing images of the land from different angles and perspectives.
 
+npm packages:
+
+npm install animate.css

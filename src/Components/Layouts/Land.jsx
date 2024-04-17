@@ -29,3 +29,5 @@ const Land = ({ land }) => {
 };
 
 export default Land;
+
+
