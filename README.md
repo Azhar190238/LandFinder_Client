@@ -26,4 +26,5 @@ npm packages:
    npm install react react-dom leaflet
    npm install react-leaflet
 
-3) 
+3) React Hook form(used in log in form)
+   npm install react-hook-form
